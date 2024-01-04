@@ -1,0 +1,47 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 364181,
+                "file_path": "results/Test3_3layers/Move To Target/Move To Target-364181.onnx",
+                "reward": 6.979020979020979,
+                "creation_time": 1704363996.6125891,
+                "auxillary_file_paths": [
+                    "results/Test3_3layers/Move To Target/Move To Target-364181.pt"
+                ]
+            },
+            {
+                "steps": 499990,
+                "file_path": "results/Test3_3layers/Move To Target/Move To Target-499990.onnx",
+                "reward": 8.027397260273972,
+                "creation_time": 1704364176.381553,
+                "auxillary_file_paths": [
+                    "results/Test3_3layers/Move To Target/Move To Target-499990.pt"
+                ]
+            },
+            {
+                "steps": 500004,
+                "file_path": "results/Test3_3layers/Move To Target/Move To Target-500004.onnx",
+                "reward": 8.040816326530612,
+                "creation_time": 1704364176.4014,
+                "auxillary_file_paths": [
+                    "results/Test3_3layers/Move To Target/Move To Target-500004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500004,
+            "file_path": "results/Test3_3layers/Move To Target.onnx",
+            "reward": 8.040816326530612,
+            "creation_time": 1704364176.4014,
+            "auxillary_file_paths": [
+                "results/Test3_3layers/Move To Target/Move To Target-500004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

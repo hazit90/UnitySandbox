@@ -1,0 +1,47 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 499958,
+                "file_path": "results/Test3_6layers/Move To Target/Move To Target-499958.onnx",
+                "reward": 9.166163141993957,
+                "creation_time": 1704366850.767918,
+                "auxillary_file_paths": [
+                    "results/Test3_6layers/Move To Target/Move To Target-499958.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results/Test3_6layers/Move To Target/Move To Target-999999.onnx",
+                "reward": 9.660377358490566,
+                "creation_time": 1704367176.156409,
+                "auxillary_file_paths": [
+                    "results/Test3_6layers/Move To Target/Move To Target-999999.pt"
+                ]
+            },
+            {
+                "steps": 1000159,
+                "file_path": "results/Test3_6layers/Move To Target/Move To Target-1000159.onnx",
+                "reward": 9.664596273291925,
+                "creation_time": 1704367176.193982,
+                "auxillary_file_paths": [
+                    "results/Test3_6layers/Move To Target/Move To Target-1000159.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000159,
+            "file_path": "results/Test3_6layers/Move To Target.onnx",
+            "reward": 9.664596273291925,
+            "creation_time": 1704367176.193982,
+            "auxillary_file_paths": [
+                "results/Test3_6layers/Move To Target/Move To Target-1000159.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

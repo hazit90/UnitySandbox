@@ -1,0 +1,47 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 499956,
+                "file_path": "results/Test3_5layers/Move To Target/Move To Target-499956.onnx",
+                "reward": 9.409230769230769,
+                "creation_time": 1704366047.940021,
+                "auxillary_file_paths": [
+                    "results/Test3_5layers/Move To Target/Move To Target-499956.pt"
+                ]
+            },
+            {
+                "steps": 999955,
+                "file_path": "results/Test3_5layers/Move To Target/Move To Target-999955.onnx",
+                "reward": 9.616,
+                "creation_time": 1704366383.5922718,
+                "auxillary_file_paths": [
+                    "results/Test3_5layers/Move To Target/Move To Target-999955.pt"
+                ]
+            },
+            {
+                "steps": 1000026,
+                "file_path": "results/Test3_5layers/Move To Target/Move To Target-1000026.onnx",
+                "reward": 9.619047619047619,
+                "creation_time": 1704366383.630792,
+                "auxillary_file_paths": [
+                    "results/Test3_5layers/Move To Target/Move To Target-1000026.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000026,
+            "file_path": "results/Test3_5layers/Move To Target.onnx",
+            "reward": 9.619047619047619,
+            "creation_time": 1704366383.630792,
+            "auxillary_file_paths": [
+                "results/Test3_5layers/Move To Target/Move To Target-1000026.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

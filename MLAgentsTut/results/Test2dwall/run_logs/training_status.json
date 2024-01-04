@@ -1,0 +1,65 @@
+{
+    "Move To Target": {
+        "checkpoints": [
+            {
+                "steps": 195068,
+                "file_path": "results/Test2dwall/Move To Target/Move To Target-195068.onnx",
+                "reward": 4.28125,
+                "creation_time": 1704336129.852391,
+                "auxillary_file_paths": [
+                    "results/Test2dwall/Move To Target/Move To Target-195068.pt"
+                ]
+            },
+            {
+                "steps": 499996,
+                "file_path": "results/Test2dwall/Move To Target/Move To Target-499996.onnx",
+                "reward": 5.3319755600814664,
+                "creation_time": 1704336385.544777,
+                "auxillary_file_paths": [
+                    "results/Test2dwall/Move To Target/Move To Target-499996.pt"
+                ]
+            },
+            {
+                "steps": 500001,
+                "file_path": "results/Test2dwall/Move To Target/Move To Target-500001.onnx",
+                "reward": 5.317073170731708,
+                "creation_time": 1704336385.5636191,
+                "auxillary_file_paths": [
+                    "results/Test2dwall/Move To Target/Move To Target-500001.pt"
+                ]
+            },
+            {
+                "steps": 500001,
+                "file_path": "results/Test2dwall/Move To Target/Move To Target-500001.onnx",
+                "reward": null,
+                "creation_time": 1704336466.8485708,
+                "auxillary_file_paths": [
+                    "results/Test2dwall/Move To Target/Move To Target-500001.pt"
+                ]
+            },
+            {
+                "steps": 500001,
+                "file_path": "results/Test2dwall/Move To Target/Move To Target-500001.onnx",
+                "reward": null,
+                "creation_time": 1704336555.68759,
+                "auxillary_file_paths": [
+                    "results/Test2dwall/Move To Target/Move To Target-500001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500001,
+            "file_path": "results/Test2dwall/Move To Target.onnx",
+            "reward": null,
+            "creation_time": 1704336555.68759,
+            "auxillary_file_paths": [
+                "results/Test2dwall/Move To Target/Move To Target-500001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}
