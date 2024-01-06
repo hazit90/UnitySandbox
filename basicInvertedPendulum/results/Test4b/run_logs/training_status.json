@@ -1,0 +1,47 @@
+{
+    "balanceBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499991,
+                "file_path": "results/Test4b/balanceBehavior/balanceBehavior-499991.onnx",
+                "reward": 6.745983935742972,
+                "creation_time": 1704494379.8100622,
+                "auxillary_file_paths": [
+                    "results/Test4b/balanceBehavior/balanceBehavior-499991.pt"
+                ]
+            },
+            {
+                "steps": 999986,
+                "file_path": "results/Test4b/balanceBehavior/balanceBehavior-999986.onnx",
+                "reward": 6.846254927726675,
+                "creation_time": 1704494991.749939,
+                "auxillary_file_paths": [
+                    "results/Test4b/balanceBehavior/balanceBehavior-999986.pt"
+                ]
+            },
+            {
+                "steps": 1000013,
+                "file_path": "results/Test4b/balanceBehavior/balanceBehavior-1000013.onnx",
+                "reward": 6.8414154652686765,
+                "creation_time": 1704494991.795912,
+                "auxillary_file_paths": [
+                    "results/Test4b/balanceBehavior/balanceBehavior-1000013.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000013,
+            "file_path": "results/Test4b/balanceBehavior.onnx",
+            "reward": 6.8414154652686765,
+            "creation_time": 1704494991.795912,
+            "auxillary_file_paths": [
+                "results/Test4b/balanceBehavior/balanceBehavior-1000013.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

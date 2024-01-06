@@ -1,0 +1,38 @@
+{
+    "balanceBehavior": {
+        "checkpoints": [
+            {
+                "steps": 499990,
+                "file_path": "results/Test3/balanceBehavior/balanceBehavior-499990.onnx",
+                "reward": 4.44625,
+                "creation_time": 1704490510.949673,
+                "auxillary_file_paths": [
+                    "results/Test3/balanceBehavior/balanceBehavior-499990.pt"
+                ]
+            },
+            {
+                "steps": 500002,
+                "file_path": "results/Test3/balanceBehavior/balanceBehavior-500002.onnx",
+                "reward": 4.441947565543071,
+                "creation_time": 1704490510.969942,
+                "auxillary_file_paths": [
+                    "results/Test3/balanceBehavior/balanceBehavior-500002.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500002,
+            "file_path": "results/Test3/balanceBehavior.onnx",
+            "reward": 4.441947565543071,
+            "creation_time": 1704490510.969942,
+            "auxillary_file_paths": [
+                "results/Test3/balanceBehavior/balanceBehavior-500002.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

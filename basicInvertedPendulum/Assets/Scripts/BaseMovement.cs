@@ -12,7 +12,7 @@ public class BaseMovement : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal"); // 'A' and 'D' keys
         float moveVertical = Input.GetAxis("Vertical");     // 'W' and 'S' keys
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        Vector3 movement = new Vector3(0f, 0.0f, moveVertical);
 
         transform.Translate(movement * speed * Time.deltaTime);
     }
